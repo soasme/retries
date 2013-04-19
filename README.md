@@ -1,6 +1,6 @@
 # `retry` decorator
 
-[![Build Status](https://travis-ci.org/soasme/retry.png?branch=master)](https://travis-ci.org/soasme/retry)
+[![Build Status](https://travis-ci.org/soasme/retries.png?branch=master)](https://travis-ci.org/soasme/retries)
 
 A dead simple way to retry your method.
 
