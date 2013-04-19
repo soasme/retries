@@ -12,6 +12,7 @@ class retry(object):
     Usage:
 
     @retry(errors=(TTransportException, AnyExpectedError))
+    @retry() # detect whatsoever errors and retry 3 times
     '''
 
     def __init__(self, errors=(Exception, ), tries=3, delay=0):
