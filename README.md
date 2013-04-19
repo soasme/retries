@@ -4,6 +4,10 @@
 
 A dead simple way to retry your method.
 
+Through pip:
+
+    pip install retries
+
 Through source code:
 
     git clone git://github.com/soasme/retries.git
