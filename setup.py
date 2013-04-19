@@ -10,14 +10,14 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name="retry",
-    version="0.1",
+    name="retries",
+    version="1.0",
     author="soasme",
     author_email="soasme@gmail.com",
     description="Decorator for retrying exec a method",
     license="MIT License",
     keywords="decorator decorators retry exception",
-    url="https://github.com/soasme/retry",
+    url="https://github.com/soasme/retries",
     packages=['retry'],
     long_description=read("README.md"),
     classifiers=[
